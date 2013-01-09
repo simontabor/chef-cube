@@ -10,6 +10,6 @@ version          "0.4.1"
   supports os
 end
 
-depends "riot-mongodb"
+depends "mongodb"
 depends "nodejs", "= 1.0.1"
 depends "logrotate", "= 0.8.2"
