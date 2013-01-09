@@ -18,6 +18,7 @@
 #
 
 include_recipe "mongodb"
+include_recipe "logrotate"
 
 user "node"
 
