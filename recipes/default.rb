@@ -39,7 +39,7 @@ end
 
 execute "install cube" do
   cwd     node[:cube][:install_dir]
-  command "npm install cube"
+  command "git clone -b production git@github.com:simontabor/cube.git #{node[:cube][:install_dir]}/node_modules/cube"
   creates "#{node[:cube][:install_dir]}/node_modules/cube"
 end
 
